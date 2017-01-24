@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/portfolio/vendor/jquery/src/manipulation/var/rtagName.js"],"names":["define"],"mappings":"AAAAA,OAAO,WAAW,MAAM","file":"rtagName.js","sourcesContent":["define(function(){return/<([\\w:-]+)/});\n//# sourceMappingURL=rtagName.js.map\n"]}

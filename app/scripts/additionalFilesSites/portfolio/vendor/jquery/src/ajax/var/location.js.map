@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/portfolio/vendor/jquery/src/ajax/var/location.js"],"names":["define","window","location"],"mappings":"AAAAA,OAAO,WAAW,MAAOC,QAAOC","file":"location.js","sourcesContent":["define(function(){return window.location});\n//# sourceMappingURL=location.js.map\n"]}

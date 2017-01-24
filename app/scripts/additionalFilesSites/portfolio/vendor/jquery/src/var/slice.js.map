@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/portfolio/vendor/jquery/src/var/slice.js"],"names":["define","e","slice"],"mappings":"AAAAA,QAAQ,SAAS,SAASC,GAAG,MAAOA,GAAEC","file":"slice.js","sourcesContent":["define([\"./arr\"],function(e){return e.slice});\n//# sourceMappingURL=slice.js.map\n"]}

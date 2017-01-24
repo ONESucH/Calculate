@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/rollerPro/vendor/jquery/src/var/rnotwhite.js"],"names":["define"],"mappings":"AAAAA,OAAO,WAAW,YAAa,OAAM","file":"rnotwhite.js","sourcesContent":["define(function(){\"use strict\";return/\\S+/g});\n//# sourceMappingURL=rnotwhite.js.map\n"]}

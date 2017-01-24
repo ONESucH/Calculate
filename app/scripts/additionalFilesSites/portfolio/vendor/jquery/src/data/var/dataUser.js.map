@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/portfolio/vendor/jquery/src/data/var/dataUser.js"],"names":["define","n"],"mappings":"AAAAA,QAAQ,WAAW,SAASC,GAAG,MAAO,IAAIA","file":"dataUser.js","sourcesContent":["define([\"../Data\"],function(n){return new n});\n//# sourceMappingURL=dataUser.js.map\n"]}

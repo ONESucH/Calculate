@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.main-block-carousel {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  margin: 20vh auto;
+  align-items: stretch;
+  overflow: hidden;
+  box-shadow: 0 0 1px 1px black;
+  i {
+    margin: auto;
+    font-size: 32px;
+    cursor: pointer;
+  }
+}
+
+.carousel {
+  position: relative;
+  text-align: left;
+  width: 400px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.all-images {
+  position: absolute;
+  clear: both;
+  width: 999999px;
+  img {
+    margin-right: -3.9px;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+  }
+}
+
+.bottom-block-pagination {
+  position: absolute;
+  float: left;
+  text-align: center;
+  line-height: 10px;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  z-index: 2;
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    box-shadow: 0 0 1px 1px #000;
+    cursor: pointer;
+    line-height: 24px;
+    background: silver;
+    border-radius: 5px;
+    &:hover {
+      background: orangered;
+    }
+  }
+}
+
+.bottom-block-pagination-image {
+  position: absolute;
+  float: left;
+  text-align: center;
+  line-height: 18px;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  z-index: 2;
+  span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 1px 1px #000;
+    cursor: pointer;
+    line-height: 24px;
+    border-radius: 5px;
+    background: rgba(74, 71, 73, 0.51);
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+.left-button {
+  position: relative;
+  width: 100px;
+  z-index: 2;
+  background: white;
+  align-self: center;
+  cursor: pointer;
+  &:hover > i {
+    color: orangered;
+  }
+}
+
+.right-button {
+  position: relative;
+  width: 100px;
+  z-index: 2;
+  background: white;
+  align-self: center;
+  cursor: pointer;
+  &:hover > i {
+    color: orangered;
+  }
+}

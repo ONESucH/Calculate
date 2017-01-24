@@ -1,0 +1,2 @@
+"use strict";var taskTree=require("../lib/taskTree"),should=require("should");require("mocha"),describe("taskTree()",function(){it("should form a tree properly",function(e){should.exist(taskTree);var s={test:{dep:["abc","def"]},abc:{dep:["def"]},def:{dep:[]}},d={nodes:[{label:"test",nodes:["abc","def"]},{label:"abc",nodes:["def"]},{label:"def",nodes:[]}]};taskTree(s).should.eql(d),e()})});
+//# sourceMappingURL=taskTree.js.map

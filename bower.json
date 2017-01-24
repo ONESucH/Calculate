@@ -1,0 +1,17 @@
+{
+  "name": "carousel-2",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "zidein07 <zidein07@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ONESucH/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

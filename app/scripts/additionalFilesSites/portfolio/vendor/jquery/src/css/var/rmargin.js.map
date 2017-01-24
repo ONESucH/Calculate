@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/additionalFilesSites/portfolio/vendor/jquery/src/css/var/rmargin.js"],"names":["define"],"mappings":"AAAAA,OAAO,WAAW,MAAM","file":"rmargin.js","sourcesContent":["define(function(){return/^margin/});\n//# sourceMappingURL=rmargin.js.map\n"]}

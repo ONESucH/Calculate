@@ -1,0 +1,2 @@
+"use strict";function copy(e,r){return _.partial(fs.copy,e,r)}function globTemplate(e){return _.transform(glob.sync(e),function(e,r){var t=path.basename(r,path.extname(r));e[t]=_.template(fs.readFileSync(r,"utf8"))},{})}function min(e,r){return _.partial(minify,e,r)}function write(e,r){return _.partial(fs.writeFile,e,r)}var _=require("lodash"),fs=require("fs-extra"),glob=require("glob"),path=require("path"),minify=require("../common/minify.js");module.exports={copy:copy,globTemplate:globTemplate,min:min,write:write};
+//# sourceMappingURL=file.js.map

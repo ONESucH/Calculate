@@ -1,0 +1,2 @@
+"use strict";function onComplete(a){if(a)throw a}function build(){async.series([file.copy(baseLodash,distLodash),file.min(distLodash)],onComplete)}var async=require("async"),path=require("path"),file=require("../common/file"),basePath=path.join(__dirname,"..",".."),distPath=path.join(basePath,"dist"),filename="lodash.js",baseLodash=path.join(basePath,filename),distLodash=path.join(distPath,filename);build();
+//# sourceMappingURL=build-dist.js.map
